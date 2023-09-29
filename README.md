@@ -4,7 +4,7 @@ This library exists for one reason - providing the functionality of the ftpparse
 
 FreeFTPParser's job is to parse the output of FTP LIST responces. These are (or at least were) very poorly standardized, making it difficult to extract information from them in applications. FreeFTPParser makes it easy to parse these responces by simply feeding them in line-by-line to the parser's `ftpparse()` function. This function extracts information from the LIST responce lines and places it into a struct for easy use. The API is fully compatible with ftpparse. Everything is licensed under the 0BSD license, which is approximately equivalent to Bernstein's original ftpparse license minus the commercial use restriction and with a warranty disclaimer.
 
-Currently FreeFTPParser supports UNIX-style FTP LIST output only. Further formats may be added at a later date - just open a new issue and provide a sample of LIST output from an incompatible server and I'll try to add support for it. (I wanted to add support for more formats but literally could not find any of them documented anywhere!)
+Currently FreeFTPParser supports UNIX-style FTP LIST output only. Further formats may be added at a later date - just open a new issue and provide a sample of LIST output from an incompatible server and I'll try to add support for it. (I wanted to add support for more formats but literally could not find any of them documented anywhere except in code I couldn't use!)
 
 # Guidelines for developing FreeFTPParser
 
